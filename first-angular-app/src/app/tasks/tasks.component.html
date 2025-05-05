@@ -1,0 +1,11 @@
+<section>
+    <h2 class="user-name">{{ user?.name }}'s Tasks list</h2>
+    <menu>
+        <button class="user-button" (click)="onAddTask()">Add Task</button>
+    </menu>
+    <ul class="user-tasks">
+        @for(task of tasks; track task) {
+          <app-task [task]="task" />
+      }
+    </ul>
+</section>

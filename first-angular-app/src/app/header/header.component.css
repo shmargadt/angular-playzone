@@ -1,0 +1,13 @@
+h1 {
+    color: blue;
+    font-size: 2em;
+    text-align: center;
+}
+
+.small-round-img {
+ width: 70px;
+ height: 70px;
+ border-radius: 50%;
+ object-fit: cover;
+}
+    
